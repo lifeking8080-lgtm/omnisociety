@@ -1,0 +1,6 @@
+{
+  "name": "Residential Society Management",
+  "description": "A secure, fully-responsive full-stack portal for managers, society administrators (secretaries), and residents to manage buildings, flats, requests, and workers.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
