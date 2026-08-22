@@ -141,8 +141,7 @@ npm run dev
 
 ### 🎬 Product Demonstration Flow
 
-**Live Demo Link:** `[Add your Vercel Link Here]`
-**Demo Video:** `[Add Loom/Youtube Link Here]`
+**Live Demo Link:** `https://omnisociety-410808863685.asia-south1.run.app`
 
 **Judge Verification Steps:**
 
