@@ -351,7 +351,8 @@ These are future possibilities unless explicitly implemented and tested in the c
 **Project:** OmniSociety  
 **Team:** ARJUNAA  
 **Team Leader:** Mr.Shivraj Shivaji Patil <br>
-**Team Members: <br> 1) Ms.Sanika Madhukar Jadhav <br>
+**Team Members:**<br>
+                <br> 1) Ms.Sanika Madhukar Jadhav <br>
                 <br> 2) Ms.Vaishnavi Vitthal Shivankar <br>
                 <br> 3) Ms.Shreya Sharad Potdar <br>
                 <br> 4) Ms.Tanishka Vikrant Patil <br>
