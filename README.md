@@ -173,38 +173,84 @@ Blockchain functionality depends on the implemented integration and network envi
 
 ---
 
-## 🏗️ System Architecture
+# 🏗️ System Architecture – OmniSociety
 
-The high-level workflow of OmniSociety:
+## Overview
 
-        ┌────────────────────────┐
-        │        Residents       │
-        └────────────┬───────────┘
-                     │
-        ┌────────────▼───────────┐
-        │    OmniSociety App     │
-        └────────────┬───────────┘
-                     │
-          ┌──────────┴──────────┐
-          │                     │
-┌─────────▼─────────┐  ┌────────▼─────────┐
-│ Secretary / Admin │  │ Platform Director│
-│      Portal       │  │      Portal      │
-└───────────────────┘  └──────────────────┘
-          │
-          ▼
-┌────────────────────────┐
-│ Maintenance & Society  │
-│ Management Workflows   │
-└────────────┬───────────┘
-             │
-             ▼
-┌────────────────────────┐
-│ Stellar / Soroban      │
-│ Blockchain Integration │
-└────────────────────────┘
-*This is a conceptual architecture. It does not imply that every component or transaction is currently connected end-to-end.*
+OmniSociety follows a role-based architecture that connects residents, society secretaries, and platform administrators through a unified residential management platform.
 
+The system consists of three primary portals:
+
+- **Resident Portal:** Provides access to society information, maintenance details, and service-provider information.
+- **Secretary / Admin Portal:** Supports society management, flat records, resident verification, queries, and treasury-related workflows.
+- **Platform Director Portal:** Provides platform-level visibility into registered societies and administrative information.
+
+The platform also explores integration with **Stellar Blockchain, Soroban smart contracts, and wallet connectivity** for blockchain-enabled maintenance workflows.
+
+---
+
+## 📊 Architecture Diagram
+
+The following diagram illustrates the high-level architecture and interactions between the users, application portals, society data, and blockchain components.
+
+```mermaid
+flowchart TD
+    %% Users
+    A["🏠 Residents"]
+    B["🛡️ Society Secretary / Admin"]
+    C["🌐 Platform Director"]
+
+    %% Main Platform
+    D["🏢 OmniSociety Platform"]
+
+    A --> D
+    B --> D
+    C --> D
+
+    %% Portals
+    D --> E["Resident Portal"]
+    D --> F["Secretary / Admin Portal"]
+    D --> G["Platform Director Portal"]
+
+    %% Resident Portal Features
+    E --> H["Society Information"]
+    E --> I["Maintenance & Payment Interface"]
+    E --> J["Service Provider Directory"]
+    E --> K["Wallet Integration"]
+
+    %% Admin Portal Features
+    F --> L["Society, Building & Flat Management"]
+    F --> M["Resident Directory & Verification"]
+    F --> N["Resident Queries"]
+    F --> O["Society Treasury"]
+
+    %% Director Portal Features
+    G --> P["Registered Societies"]
+    G --> Q["Platform Monitoring"]
+
+    %% Data Layer
+    H --> R[("Society Data")]
+    L --> R
+    M --> R
+    N --> R
+    P --> R
+
+    %% Blockchain Integration
+    K --> S["Stellar Blockchain"]
+    S --> T["Soroban Smart Contracts"]
+
+    %% Styling
+    classDef users fill:#0B132B,color:#FFFFFF,stroke:#64FFDA,stroke-width:2px
+    classDef platform fill:#1C2541,color:#FFFFFF,stroke:#64FFDA,stroke-width:2px
+    classDef features fill:#EAF2F8,color:#17202A,stroke:#5DADE2
+    classDef blockchain fill:#4B0082,color:#FFFFFF,stroke:#B388FF,stroke-width:2px
+    classDef database fill:#D5F5E3,color:#145A32,stroke:#27AE60
+
+    class A,B,C users
+    class D,E,F,G platform
+    class H,I,J,K,L,M,N,O,P,Q features
+    class S,T blockchain
+    class R database
 ---
 
 ## 🎨 Design Philosophy
