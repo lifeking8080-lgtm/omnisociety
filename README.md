@@ -8,7 +8,7 @@
   </a>
   <br><br>
   <img src="https://img.shields.io/badge/Project-OmniSociety-0B132B?style=flat-square" alt="Project"/>
-  <img src="https://img.shields.io/badge/Team-ARJUNA-64FFDA?style=flat-square" alt="Team ARJUNA"/>
+  <img src="https://img.shields.io/badge/Team-ARJUNAA-64FFDA?style=flat-square" alt="Team ARJUNAA"/>
   <img src="https://img.shields.io/badge/Blockchain-Stellar-7D00FF?style=flat-square" alt="Stellar"/>
   <img src="https://img.shields.io/badge/Smart_Contracts-Soroban-8A2BE2?style=flat-square" alt="Soroban"/>
   <img src="https://img.shields.io/badge/Institution-ADCET_Ashta-4285F4?style=flat-square" alt="ADCET"/>
@@ -32,7 +32,7 @@
 - [🎨 Design Philosophy](#-design-philosophy)
 - [🌍 Expected Impact](#-expected-impact)
 - [🚀 Future Scope](#-future-scope)
-- [👥 Team ARJUNAA](#-team-arjuna)
+- [👥 Team ARJUNAA](#-team-arjunaa)
 - [🔐 Security and Privacy](#-security-and-privacy)
 - [⚠️ Disclaimer](#️-disclaimer)
 
@@ -346,10 +346,10 @@ These are future possibilities unless explicitly implemented and tested in the c
 
 ---
 
-## 👥 Team ARJUNA
+## 👥 Team ARJUNAA
 
 **Project:** OmniSociety  
-**Team:** ARJUNA  
+**Team:** ARJUNAA  
 **Team Leader:** <strong> Mr.Shivraj Shivaji Patil </strong>
 **Team Members:** <strong> Ms.Sanika Madhukar Jadhav </strong>
                **<strong> Ms.Vaishnavi Vitthal Shivankar </strong>
@@ -404,5 +404,5 @@ This project is intended for demonstration, learning, and further development.
 <p align="center">
   <strong>🏢 OmniSociety — Smarter Society Management for a Connected India</strong>
   <br>
-  <em>Designed and developed by Team ARJUNA</em>
+  <em>Designed and developed by Team ARJUNAA</em>
 </p>
