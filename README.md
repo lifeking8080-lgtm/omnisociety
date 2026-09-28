@@ -350,12 +350,12 @@ These are future possibilities unless explicitly implemented and tested in the c
 
 **Project:** OmniSociety  
 **Team:** ARJUNA  
-**Team Leader:** Mr.Shivraj Shivaji Patil
-**Team Members:** Ms.Sanika Madhukar Jadhav
-               ** Ms.Vaishnavi Vitthal Shivankar
-               ** Ms.Shreya sharad potdar
-               ** Ms.Tanishka Vikrant Patil
-               ** Mr.Deep Manohar nawsupe
+**Team Leader:** <strong>Mr.Shivraj Shivaji Patil</strong>
+**Team Members:** <strong>Ms.Sanika Madhukar Jadhav</strong>
+               **<strong> Ms.Vaishnavi Vitthal Shivankar</strong>
+               ** <strong>Ms.Shreya sharad potdar</strong>
+               **<strong> Ms.Tanishka Vikrant Patil</strong>
+               **<strong> Mr.Deep Manohar nawsupe</strong>
 
 **Institution:** Annasaheb Dange College of Engineering and Technology (ADCET), Ashta, Maharashtra  
 **Domain:** Residential Management | Blockchain | Digital Innovation
