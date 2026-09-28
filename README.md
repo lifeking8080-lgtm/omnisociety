@@ -98,3 +98,190 @@ Our goal is to reduce manual effort and make society management more organized, 
 - Society treasury interface.
 
 ### 🌐 3. Platform Director Portal
+- Platform-level dashboard.
+- Registered society information.
+- Overview of residents, secretaries, and platform workers.
+- Society listing and administrative monitoring.
+- Platform configuration and security-related settings.
+
+### 🔗 4. Blockchain-Oriented Payment Workflow
+
+OmniSociety explores Stellar-based functionality for maintenance-related transactions.
+
+- Stellar ecosystem integration.
+- Soroban smart-contract technology exploration.
+- Wallet-connected transaction workflows.
+- Potential for verifiable transaction records.
+
+Blockchain functionality depends on the implemented integration and network environment. The project should not be interpreted as guaranteeing that every displayed payment is an executed on-chain transaction.
+
+### 🧰 5. Service Provider Directory
+
+- Centralized access to society helpers and service providers.
+- Service information for residents.
+- Support for connecting residents with relevant service providers.
+
+### 📋 6. Digital Society Workflows
+
+- Reduced dependence on manual registers.
+- Organized resident information.
+- Centralized handling of requests and queries.
+- Improved visibility of society-related information.
+
+---
+
+## 🔄 How It Works
+
+1. Society Setup: Society information, buildings, and flats are organized through the admin portal.
+2. Resident Onboarding: Residents submit their details and society joining information.
+3. Verification: The secretary reviews and manages resident joining requests.
+4. Resident Access: Residents can access relevant society information and available services.
+5. Society Management: Administrators manage records, queries, and service-provider information.
+6. Maintenance Workflow: Maintenance information and payment-related activities are handled through the platform.
+7. Blockchain Exploration: Stellar and Soroban can support the intended traceable transaction workflow where the integration is implemented and operational.
+
+---
+
+## 🛠️ Technology and Blockchain
+
+| Technology | Purpose |
+|---|---|
+| Web application | Digital society management interface |
+| Stellar | Blockchain ecosystem for transaction-related functionality |
+| Soroban | Smart-contract platform for blockchain workflows |
+| Freighter | Wallet integration exploration |
+| Cloud deployment | Access to the hosted project demo |
+
+*The table describes the technologies and intended roles associated with the project. Add your exact frontend, backend, database, and AI tools once confirmed from your source code.*
+
+---
+
+## 🏗️ System Architecture
+
+The high-level workflow of OmniSociety:
+
+        ┌────────────────────────┐
+        │        Residents       │
+        └────────────┬───────────┘
+                     │
+        ┌────────────▼───────────┐
+        │    OmniSociety App     │
+        └────────────┬───────────┘
+                     │
+          ┌──────────┴──────────┐
+          │                     │
+┌─────────▼─────────┐  ┌────────▼─────────┐
+│ Secretary / Admin │  │ Platform Director│
+│      Portal       │  │      Portal      │
+└───────────────────┘  └──────────────────┘
+          │
+          ▼
+┌────────────────────────┐
+│ Maintenance & Society  │
+│ Management Workflows   │
+└────────────┬───────────┘
+             │
+             ▼
+┌────────────────────────┐
+│ Stellar / Soroban      │
+│ Blockchain Integration │
+└────────────────────────┘
+*This is a conceptual architecture. It does not imply that every component or transaction is currently connected end-to-end.*
+
+---
+
+## 🎨 Design Philosophy
+
+OmniSociety is designed around a clean, structured, and accessible user experience.
+
+| Color | Hex Code | Purpose |
+|---|---|---|
+| Deep Navy | #0B132B | Primary interface |
+| Mint | #64FFDA | Accent and highlights |
+| Soft Blue | #CCD6F6 | Secondary elements |
+| Coral | #FF6B6B | Alerts and pending items |
+
+The interface focuses on clear navigation, role-based access, and practical workflows for residents and society administrators.
+
+---
+
+## 📍 Project Status
+OmniSociety is a student innovation project with a deployed demonstration and multiple role-based portals.
+
+Current project focus:
+- Demonstrating residential society management workflows.
+- Organizing resident and administrative functions.
+- Exploring Stellar-based maintenance transaction workflows.
+- Improving the usability and reliability of the platform.
+
+Some integrations and advanced capabilities may require further development, testing, and deployment validation.
+
+---
+
+## 🚀 Future Scope
+
+Potential future enhancements include:
+
+- AI-assisted complaint categorization and prioritization.
+- Multilingual complaint submission and communication.
+- Automated maintenance reminders.
+- More comprehensive visitor management.
+- IoT-enabled smart gate integration.
+- Expanded analytics and society reports.
+- Verified service-provider workflows.
+- Production-ready Stellar and Soroban transaction integration.
+- Improved accessibility for users with limited technical experience.
+
+These are planned enhancements unless explicitly demonstrated as implemented features.
+
+---
+
+## 🌍 Expected Impact
+
+OmniSociety aims to help residential communities:
+
+- Reduce manual administrative work.
+- Keep society information organized.
+- Improve communication between residents and administrators.
+- Make maintenance workflows easier to track.
+- Improve access to society services.
+- Explore greater transaction transparency through blockchain technology.
+
+Our vision is to make digital society management practical and accessible for residential communities across India.
+
+---
+
+## 👥 Team ARJUNA
+
+Project: OmniSociety  
+Team: ARJUNA  
+Team Leader: Shivraj Patil  
+Institution: Annasaheb Dange College of Engineering and Technology (ADCET), Ashta, Maharashtra  
+Domain: Residential Management | Blockchain | Digital Innovation
+
+Built with curiosity, collaboration, and a vision to solve real-world problems through technology. 💙
+
+---
+
+## 🔗 Useful Links
+
+- 🚀 [Live Demo](https://omnisociety-410808863685.asia-south1.run.app)
+- 🌌 [Stellar Developer Documentation](https://developers.stellar.org/)
+- 📜 [Soroban Documentation](https://developers.stellar.org/docs/build/smart-contracts/overview)
+- 👛 [Freighter Wallet](https://www.freighter.app/)
+
+---
+
+## ⚠️ Disclaimer
+
+OmniSociety is a student project and demonstration platform. Screenshots, sample records, and interface elements may represent demo data. Blockchain, wallet, AI, and payment features should be considered operational only where verified through actual implementation and testing.
+
+Do not use real resident personal information, private keys, seed phrases, or sensitive credentials in public repositories. Never commit wallet secrets or API keys to GitHub.
+
+---
+
+<p align="center">
+  <strong>🏢 OmniSociety — Smarter Society Management for a Connected India</strong>
+  <br>
+  <em>Built by Team ARJUNA</em>
+</p>
