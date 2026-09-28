@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/Institution-ADCET_Ashta-4285F4?style=flat-square" alt="ADCET"/>
 </p>
 
-> **OmniSociety** is a smart residential society management platform developed by Team ARJUNA. It aims to simplify housing society operations by bringing residents, society administrators, and platform management together in one digital ecosystem, while exploring blockchain-enabled transparency through Stellar.
+> **OmniSociety** is a smart residential society management platform developed by Team ARJUNAA. It aims to simplify housing society operations by bringing residents, society administrators, and platform management together in one digital ecosystem, while exploring blockchain-enabled transparency through Stellar.
 
 ---
 
@@ -32,7 +32,7 @@
 - [🎨 Design Philosophy](#-design-philosophy)
 - [🌍 Expected Impact](#-expected-impact)
 - [🚀 Future Scope](#-future-scope)
-- [👥 Team ARJUNA](#-team-arjuna)
+- [👥 Team ARJUNAA](#-team-arjuna)
 - [🔐 Security and Privacy](#-security-and-privacy)
 - [⚠️ Disclaimer](#️-disclaimer)
 
@@ -40,7 +40,7 @@
 
 ## 🎥 Project Explanation Video
 
-Watch the project explanation and walkthrough of **OmniSociety** by Team ARJUNA.
+Watch the project explanation and walkthrough of **OmniSociety** by Team ARJUNAA.
 
 <p align="center">
   <a href="https://youtu.be/ieTlKXgrirU?feature=shared">
@@ -350,12 +350,12 @@ These are future possibilities unless explicitly implemented and tested in the c
 
 **Project:** OmniSociety  
 **Team:** ARJUNA  
-**Team Leader:** <strong>Mr.Shivraj Shivaji Patil</strong>
-**Team Members:** <strong>Ms.Sanika Madhukar Jadhav</strong>
-               **<strong> Ms.Vaishnavi Vitthal Shivankar</strong>
-               ** <strong>Ms.Shreya sharad potdar</strong>
-               **<strong> Ms.Tanishka Vikrant Patil</strong>
-               **<strong> Mr.Deep Manohar nawsupe</strong>
+**Team Leader:** <strong> Mr.Shivraj Shivaji Patil </strong>
+**Team Members:** <strong> Ms.Sanika Madhukar Jadhav </strong>
+               **<strong> Ms.Vaishnavi Vitthal Shivankar </strong>
+               ** <strong> Ms.Shreya Sharad Potdar </strong>
+               **<strong> Ms.Tanishka Vikrant Patil </strong>
+               **<strong> Mr.Deep Manohar Nawsupe </strong>
 
 **Institution:** Annasaheb Dange College of Engineering and Technology (ADCET), Ashta, Maharashtra  
 **Domain:** Residential Management | Blockchain | Digital Innovation
