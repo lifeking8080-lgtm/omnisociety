@@ -24,6 +24,23 @@
 
 *The demo may contain sample data. Features and integrations should be verified in the deployed application.*
 
+## 🎥 Project Explanation Video
+
+Watch the complete explanation and walkthrough of **OmniSociety** by Team ARJUNA.
+
+<p align="center">
+  <a href="https://youtu.be/ieTlKXgrirU?feature=shared">
+    <img
+      src="https://img.youtube.com/vi/ieTlKXgrirU/0.jpg"
+      alt="OmniSociety Project Explanation Video"
+      width="80%"
+    />
+  </a>
+  <br>
+  <a href="https://youtu.be/ieTlKXgrirU?feature=shared">
+    ▶️ Watch Project Explanation on YouTube
+  </a>
+</p>
 ---
 
 ## 📌 Table of Contents
