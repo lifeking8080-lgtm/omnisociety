@@ -1,88 +1,100 @@
-# 🏢 OmniSociety | Where AI Meets Blockchain for 1.2M Societies
+# 🏢 OmniSociety | Smart Residential Society Management
 
 <p align="center">
-  <a href="https://omnisociety-410808863685.asia-south1.run.app"><img src="https://img.shields.io/badge/🚀_Live_Demo-CLICK_HERE-00D1FF?style=for-the-badge" /></a>
-  <br>
-  <img src="https://img.shields.io/badge/Stellar-Testnet-7D00FF?style=flat-square" />
-  <img src="https://img.shields.io/badge/Track-Best_Use_of_Stellar-FFD700?style=flat-square" />
-  <img src="https://img.shields.io/badge/AI-Gemini_1.5_Pro-4285F4?style=flat-square" />
-  <img src="https://img.shields.io/badge/Built_in-72_Hours-FF6B6B?style=flat-square" />
+  <strong>One Platform. Smarter Societies. Greater Transparency.</strong>
+  <br><br>
+  <a href="https://omnisociety-410808863685.asia-south1.run.app">
+    <img src="https://img.shields.io/badge/🚀_Live_Demo-Explore_OmniSociety-00D1FF?style=for-the-badge" alt="Live Demo" />
+  </a>
+  <br><br>
+  <img src="https://img.shields.io/badge/Project-OmniSociety-0B132B?style=flat-square" alt="Project" />
+  <img src="https://img.shields.io/badge/Team-ARJUNA-64FFDA?style=flat-square" alt="Team ARJUNA" />
+  <img src="https://img.shields.io/badge/Blockchain-Stellar-7D00FF?style=flat-square" alt="Stellar" />
+  <img src="https://img.shields.io/badge/Track-Best_Use_of_Stellar-FFD700?style=flat-square" alt="Track" />
+  <img src="https://img.shields.io/badge/Institution-ADCET_Ashta-4285F4?style=flat-square" alt="ADCET" />
 </p>
 
-> **Team Arjuna | BuildX 2025 | One Click = Full Transparency**
-
-### 🌐 Live Demo: [https://omnisociety-410808863685.asia-south1.run.app](https://omnisociety-410808863685.asia-south1.run.app)
+> OmniSociety is a digital residential society management platform developed by Team ARJUNA to simplify society operations, improve communication, and explore transparent blockchain-enabled maintenance workflows.
 
 ---
 
-### 🤯 Interesting Points (Judges Love This)
+## 🌐 Live Demo
 
-**1. India’s First “Society Ledger on Blockchain”**
-Every ₹2000 maintenance payment is not in Excel, it’s a **Stellar transaction hash**. Admins cannot edit history. Residents can verify on stellarscan.io in 2 seconds.
+🔗 [Explore OmniSociety](https://omnisociety-410808863685.asia-south1.run.app)
 
-**2. Passwordless Society - G... ID is Your Identity**
-No email/password. Your Freighter Wallet `GAXOHAWQ...B6W` IS your flat number. Connect wallet = Login. Web3 UX for Web2 aunties.
-
-**3. AI That Actually Works, Not Gimmick**
-Resident types in Hindi: "Pani leak ho raha hai 302 me". Gemini auto-translates, tags `Plumbing | High Priority | Estimated Cost ₹500 | Vendor: ABC Plumbers` and notifies admin in 3 seconds. 15 days → 2 hours.
-
-**4. Escrow, Not Just Payment - Soroban Magic**
-Money doesn't go directly to vendor. It locks in Soroban Contract `CDLZFC3...`. Only when admin clicks “Work Approved”, function `release_payment_to_vendor()` fires. Zero fraud.
-
-**5. Built for Bharat, Not Just Bangalore**
-- Works on 3G (Lightweight React)
-- Hindi + English complaints
-- ₹999/mo - cheaper than one security guard’s 1-day salary
+*The demo may contain sample data. Features and integrations should be verified in the deployed application.*
 
 ---
 
-### 🎨 Design System (For PPT & Website)
+## 📌 Table of Contents
 
-**Color Palette:**
-- Primary: `#0B132B` (Deep Navy - Trust)
-- Accent: `#64FFDA` (Mint - Tech)
-- Secondary: `#CCD6F6` (Soft Blue - Residents)
-- Alert: `#FF6B6B` (For pending complaints)
-
-**Design Tips to Add Now:**
-1.  **Glassmorphism Cards:** For Resident Dashboard, use blurred background cards with border `1px solid rgba(100,255,218,0.2)`
-2.  **Stellar Glow Button:** "Pay with Stellar" button should have pulsing glow animation + Freighter logo
-3.  **Live Ticker:** On homepage footer, add scrolling ticker: `Last Payment: GAXO...B6W paid 10 XLM → Tx: abc...xyz → 3 sec ago | View on Explorer`
-4.  **Trust Badge:** Top right corner: `✅ Secured by Stellar Blockchain | Testnet Live`
-5.  **Architecture Diagram:** Add this to README & PPT Slide 6:
-```
-[Resident] -> (Freighter Wallet G...) -> [OmniSociety App] -> [Gemini AI]
-                                      |
-                                      v
-                               [Soroban Contract C...]
-                                      |
-                                      v
-                        [Stellar Testnet Ledger - Immutable]
-```
+- [The Problem](#-the-problem)
+- [Our Solution](#-our-solution)
+- [Key Features](#-key-features)
+- [How It Works](#-how-it-works)
+- [Technology and Blockchain](#-technology-and-blockchain)
+- [System Architecture](#-system-architecture)
+- [Design Philosophy](#-design-philosophy)
+- [Project Status](#-project-status)
+- [Future Scope](#-future-scope)
+- [Team ARJUNA](#-team-arjuna)
+- [Disclaimer](#-disclaimer)
 
 ---
 
-### 🔗 Stellar Credentials (For Judges)
+## 🚨 The Problem
 
-| Item | Value |
-| :--- | :--- |
-| **Live App** | **https://omnisociety-410808863685.asia-south1.run.app** |
-| **Wallet (G...)** | `GAXOHAWQFNMA6OJYZXH3UG5VBSV223FFFLFHJOMO3EHIXXIQOEXEVB6W` |
-| **Contract (C...)** | `CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC` |
-| **Explorer** | [Click to Verify Contract](https://stellar.expert/explorer/testnet/contract/CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC) |
-| **Faucet** | [Fund Wallet (Friendbot)](https://friendbot.stellar.org/?addr=GAXOHAWQFNMA6OJYZXH3UG5VBSV223FFFLFHJOMO3EHIXXIQOEXEVB6W) |
+Managing a residential society involves several daily activities, including:
 
----
+- Maintaining resident, flat, and building records.
+- Managing resident onboarding and approval requests.
+- Tracking maintenance dues and payment information.
+- Handling complaints, queries, and service requests.
+- Connecting residents with reliable service providers.
+- Communicating notices and updates to residents.
 
-### 📊 Why This Will Win?
+When these activities depend on paper registers, spreadsheets, and scattered messaging groups, information can become difficult to organize, track, and access.
 
-- **Problem:** 1.2M societies, ₹50k Cr unmanaged - REAL problem of Bharat
-- **Innovation:** First to combine Gemini AI + Soroban Escrow for societies
-- **Technical:** MERN + AI + Blockchain + Live Deployment (not just slides)
-- **Market:** ₹1440 Cr TAM, Freemium model, Pune/Mumbai/Islampur beachhead
-- **Stellar Track:** We use G... as ID + C... as Treasury + Soroban as Logic = **True Blockchain Use Case**, not just payment button
+The challenge: How can residential societies manage their everyday operations through one accessible, organized, and transparent digital platform?
 
 ---
 
-**Team Arjuna** - *Focused like Arjuna's arrow, building for Digital India.*
-Live: https://omnisociety-410808863685.asia-south1.run.app
+## 💡 Our Solution
+
+OmniSociety brings essential residential society management workflows into a unified digital platform.
+
+It connects three key user roles:
+
+🏠 Residents – Access society information, maintenance details, and service-provider information.
+
+🛡️ Society Secretaries / Administrators – Manage society records, resident requests, and queries.
+
+🌐 Platform Directors – View platform-level information and monitor registered societies.
+
+The project also explores how Stellar blockchain and Soroban smart contracts can support traceable digital transactions and transparent maintenance-related workflows.
+
+Our goal is to reduce manual effort and make society management more organized, accessible, and efficient.
+
+---
+
+## ✨ Key Features
+
+### 🏠 1. Resident Portal
+
+- Resident profile and society information.
+- Maintenance-related information and payment interface.
+- Access to society contacts and service-provider details.
+- A centralized place for resident-facing services.
+- Wallet-related interface for exploring blockchain-enabled workflows.
+
+### 🛡️ 2. Secretary / Admin Portal
+
+- Society profile and building management.
+- Building, floor, and flat information.
+- Resident directory and joining requests.
+- Review and management of resident onboarding.
+- Resident queries and communication workflows.
+- Daily helper and service-provider directory.
+- Society treasury interface.
+
+### 🌐 3. Platform Director Portal
